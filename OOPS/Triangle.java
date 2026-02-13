@@ -1,4 +1,5 @@
 public class Triangle{
+  
 private int borderWidth = 0;
 private String color = null;
 private int base = 0;
@@ -40,6 +41,7 @@ return 0.5*base*height;
 }
 
 public static void main(String[] args){
+  
 Triangle t=new Triangle();
 t.setBorderWidth(34);
 t.setColor("Green");
@@ -48,12 +50,5 @@ t.setbase(7);
 double area=t.area();
 System.out.println("Area of triangle="+area);
 
-
 }
-
-
-
-
-
-
 }
