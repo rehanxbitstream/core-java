@@ -2,6 +2,7 @@ import java.util.ArrayList;
 public class ArrayListDemonstration{
 
 pubic static void main(String[] args){
+        
 ArrayList<String> list = new ArrayList<>();
 
         // 1.add():Adds an element at the end
